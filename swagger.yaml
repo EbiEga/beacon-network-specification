@@ -33,7 +33,7 @@ paths:
       - "application/xml"
       - "application/json"
       security:
-        - APIKeyHeader: []
+      - APIKeyHeader: []
       parameters: []
       responses:
         200:
@@ -63,7 +63,7 @@ paths:
       - "application/xml"
       - "application/json"
       security:
-        - APIKeyHeader: []
+      - APIKeyHeader: []
       parameters:
       - name: "beacon"
         in: "query"
@@ -139,7 +139,7 @@ paths:
       - "application/xml"
       - "application/json"
       security:
-        - APIKeyHeader: []
+      - APIKeyHeader: []
       parameters: []
       responses:
         200:
@@ -188,7 +188,7 @@ paths:
       - "application/xml"
       - "application/json"
       security:
-        - APIKeyHeader: []
+      - APIKeyHeader: []
       parameters:
       - name: "organization"
         in: "query"
@@ -229,7 +229,7 @@ paths:
       - "application/xml"
       - "application/json"
       security:
-        - APIKeyHeader: []
+      - APIKeyHeader: []
       parameters:
       - name: "organizationId"
         in: "path"
@@ -291,6 +291,8 @@ paths:
       produces:
       - "application/xml"
       - "application/json"
+      security:
+      - APIKeyHeader: []
       parameters:
       - name: "beacon"
         in: "query"
@@ -362,6 +364,8 @@ paths:
       produces:
       - "application/xml"
       - "application/json"
+      security:
+      - APIKeyHeader: []
       parameters:
       - name: "beaconId"
         in: "path"
